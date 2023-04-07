@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>新游戏</title>
+    <link rel="stylesheet" href="../public/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="../public/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./index.css">
+
+    <script src="../public/jqurey.min.js"></script>
+    <script src="./js/animation.js"></script>
+    <script src="./js/index.js"></script>
+    <script src="../public/langjiazai.js"></script>
+    <script src="../public/timer.js"></script>
+
+</head>
+
+<body>
+    <div class="">
+        <div class="mian">
+            <p class="timer"></p>
+            <ul>
+                <li><img data_src="./image/米饭.png" alt=""><span class="food">100</span></li>
+                <li><img data_src="./image/coin.png" alt=""><span class="money">50</span></li>
+                <li><i class="bi bi-trophy-fill trophy"></i><span class="grades">0</span></li>
+                <li><i class="bi bi-heart-fill  love"></i><span>100</span></li>
+            </ul>
+            <div>
+                <h3>点击屏幕继续</h3>
+                <div class="bottom bottom0">
+                    <img data_src="./image/userpicture.png" alt="" class="userpic">
+                    <div class="dialogue">
+                        <audio src="../public/studio/dialogue.mp3" hidden></audio>
+                        <p class="p1">你是一个大学生,&nbsp;今天第一天开</p>
+                        <p class="p2">学,&nbsp;&nbsp;你非常开心。。。</p>
+                    </div>
+
+                </div>
+                <div class="bottom bottom1 bottom1Click">
+                    <img data_src="./image/userpicture1.png" alt="人物1" class="userpic1">
+                    <div class="dialogue1">
+                        <audio src="../public/studio/dialogue1.mp3" hidden></audio>
+                        <p class="p1 p3">李华:</p>
+                        <p class="p2 p4">什么破宿舍啊!&nbsp;赶紧装饰一下</p>
+                    </div>
+
+                </div>
+                <div class="bottom bottom2">
+                    <div>
+                        <img data_src="./image/样式1.webp" alt="样式1" class="dormitory">
+                        <img data_src="./image/样式2.webp" alt="样式2" class="dormitory">
+                        <img data_src="./image/样式3.jpg" alt="样式3" class="dormitory">
+                    </div>
+
+
+                    <div class="dialogue2">
+                        <audio src="../public/studio/dialogue2.mp3" hidden></audio>
+                        <p class="p5">请选择一款你喜欢的样式吧！</p>
+                    </div>
+
+                </div>
+                <div class="cloud">
+                </div>
+            </div>
+            <div class="bottom bottom3">
+                <p class="coin-15"><img data_src="./image/coin.png" alt="">金钱-15</p>
+                <p class="dormitory+100">宿舍整洁度+100</p>
+                <img data_src=".//image/iphone.png" alt="iphone" class="iphone">
+                <audio class="player" hidden>
+                    <source src="../public/studio/iphone.mp3" />
+                </audio>
+            </div>
+
+            <div class=" bottom bottom1 bottom4 teacher1Show">
+                <img data_src="./image/teacher1.png" alt="teacher1" class="teacher1">
+                <div class="dialogue3">
+                    <audio src="../public/studio/teacher1.mp3" hidden></audio>
+                    <p class="p1 p3">老师:</p>
+                    <p class="p2 p4">这位同学，&nbsp;你看看现在几点了?还不快来上课!</p>
+                </div>
+
+            </div>
+            <div class="bottom bottom1 bottom5 bottom5Click">
+                <img data_src="./image/userpicture1.png" alt="人物1" class="userpic1">
+                <div class=" dialogue4">
+                    <audio src="../public/studio/goclass.mp3" hidden></audio>
+                    <p class="p1 p3">李华:</p>
+                    <p class="p2 p4">一下忙忘记了看时间,看来现在只能好好打扮一</p>
+                    <p class="p6">&nbsp;&nbsp;下，让老师印象深刻了！</p>
+                </div>
+
+            </div>
+
+
+        </div>
+        <div class=" newhair newhairHide">
+            <div>
+                <!-- <form action="../第一页/index1.html"> -->
+                <button type="button" class="btn btn-warning hairGoClass">确定</button>
+                <button type="button" class="btn btn-warning hairLookclick">预览</button>
+                <!-- </form> -->
+
+
+            </div>
+
+            <div>
+                <div class="userhair"><img data_src="./image/userhair.png" alt="">
+
+                </div>
+                <div class="hairimgs">
+                    <img data_src="./image/hair1.png" alt="">
+                    <img data_src="./image/hair2.jpg" alt="">
+                    <img data_src="./image/hair3.jpg" alt="">
+                    <img data_src="./image/hair4.png" alt="">
+                </div>
+            </div>
+            <div class="hairimgsMove">
+                <img data_src="./image/hair1.png" alt="">
+                <img data_src="./image/hair2.jpg" alt="">
+                <img data_src="./image/hair3.jpg" alt="">
+                <img data_src="./image/hair4.png" alt="">
+
+            </div>
+
+        </div>
+        <div class="newhair hairLookShow">
+            <div>
+                <button type="button" class="btn btn-warning hairOK hairOKclick">换好了</button>
+                <button type="button" class="btn btn-warning hairBack hairBackclick">返回</button>
+            </div>
+
+            <div>
+                <div class="userhair"><img data_src="./image/userhair.png" alt="">
+
+                </div>
+
+                <div class="useCheck">
+                    <audio src="../public/studio/checkHair.mp3" hidden></audio>
+                    <h3>确定要穿这套去上课吗？</h3>
+                    <h5>此选项请慎重考虑！</h5>
+                    <p class="hairGoClass">这套一定闪耀全场，直接去</p>
+                    <p class="hairBackclick">我再想想</p>
+                </div>
+
+
+            </div>
+
+        </div>
+        <div class="iframe">
+            <iframe src="../加载页面/index.html" frameborder="0"></iframe>
+        </div>
+        <div class="car-tool">
+            <div>
+                <p class="timer"></p>
+                <ul>
+                    <li><img data_src="./image/米饭.png" alt=""><span class="food">100</span></li>
+                    <li><img data_src="./image/coin.png" alt=""><span class="money">50</span></li>
+                    <li><i class="bi bi-trophy-fill trophy"></i><span class="grades">0</span></li>
+                    <li><i class="bi bi-heart-fill  love"></i><span>100</span></li>
+                </ul>
+            </div>
+
+            <div>
+                <img data_src="./image/bicycle.jpeg" alt="" class="bicycle">
+                <img data_src="./image/motor.jpg" alt="" class="motor">
+                <p class="selectTool">请选择一款交通方式吧！</p>
+                <audio src="../public/studio/car.mp3" hidden class="carVioce"></audio>
+            </div>
+            <div class=" video">
+                <p class="food-30"><img data_src="./image/米饭.png" alt="">体力-30</p>
+                <p class="coin-15"><img data_src="./image/coin.png" alt="">金钱-10</p>
+                <video src="../public/video/骑行.mp4"></video>
+            </div>
+            <div class="bottom bottom1 bottom4 teacher2Show ">
+                <img data_src="./image/teacher2.jpg" alt="teacher2" class="teacher2">
+                <div class="dialogue3 ">
+                    <audio src="../public/studio/teacher2.mp3" hidden></audio>
+                    <p class="p1 p3">辅导员:</p>
+                    <p class="teacher2Text">你这穿的什么玩意儿？你哪个班的？？</p>
+                </div>
+
+            </div>
+            <div class="bottom bottom1 userhairDialogue">
+                <img data_src="./image/okhair2.png" alt="" class="userpic1 userhairpic">
+                <div class="dialogue1 ">
+                    <audio src="../public/studio/differentAudio0.mp3" hidden class="differentAudio"></audio>
+                    <p class="p">李华:</p>
+                    <p class="differentP">我这叫红色玫瑰！!</p>
+                </div>
+
+            </div>
+            <div id="defeat">
+                <h1>失败</h1>
+                <h2>D&nbsp;E&nbsp;F&nbsp;E&nbsp;A&nbsp;T</h2>
+                <div class="defeat">
+                    <audio src="../public/studio/fail.mp3" hidden class="fail"></audio>
+                </div>
+                <div class="userhair" id="user"><img data_src="./image/userhair.png" alt="">
+
+                </div>
+
+            </div>
+
+            <audio src="../public/studio/noGrade.mp3" hidden class="noGradeVioce"></audio>
+        </div>
+
+
+    </div>
+
+    <audio class="player1" hidden autoplay loop>
+        <source src="../public/studio/mianbgm.mp3" />
+    </audio>
+    <audio src="../public/studio/变装.mp3" hidden class="magicVioce"></audio>
+</body>
+
+</html>

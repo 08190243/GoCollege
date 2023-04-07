@@ -1,0 +1,121 @@
+body {
+    overflow-x: hidden;
+}
+
+.backgrund {
+    background: url(../封面/image/bg1.jpg) no-repeat;
+    // padding-top: 30px;
+    height: 700px;
+    box-sizing: content-box;
+    margin: 0;
+
+    &>div {
+        margin: 0 auto;
+        width: 600px;
+        height: 700px;
+        padding: 0;
+        position: relative;
+
+        &>div {
+            width: 100%;
+            height: 100%;
+        }
+
+    }
+
+    .startloading {
+        overflow: hidden;
+        position: relative;
+
+        .loading {
+            width: 80%;
+            height: 40px;
+            position: absolute;
+            bottom: 200px;
+            left: 50px;
+            border: 2px solid hsl(38, 62%, 52%);
+            border-radius: 40px;
+            overflow: hidden;
+
+            span {
+                position: absolute;
+                left: 45%;
+                top: -5px;
+                color: rgb(212, 15, 31);
+                font-size: 25px;
+                font-weight: 600;
+            }
+
+
+            div {
+                width: 1%;
+                height: 100%;
+                border-bottom-left-radius: 40px;
+                border-top-left-radius: 40px;
+                background-color: rgb(217, 177, 65);
+            }
+        }
+    }
+
+    .startloading ul {
+        width: 400%;
+        height: 100%;
+        position: absolute;
+        padding: 0;
+
+        li {
+            float: left;
+            list-style: none;
+            height: 100%;
+            width: 600px;
+
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+
+    .start {
+        display: none;
+    }
+
+    iframe {
+        width: 100%;
+        height: 100%;
+
+    }
+}
+
+.user {
+    position: absolute;
+    height: 80px;
+    width: 100%;
+    bottom: 0px;
+    background-color: rgb(13, 122, 85, .5);
+    margin: 0;
+    padding-left: 10px;
+
+    .userimg {
+        display: block;
+        width: 100px;
+        height: 100%;
+        background: url(./image/touxiang.jpg) no-repeat;
+        background-size: 100%;
+        border-radius: 100px;
+    }
+
+    p {
+        width: 50%;
+        line-height: 100px;
+        margin: 0;
+        color: rgb(0, 255, 30);
+        font-size: 25px;
+        font-weight: 700;
+
+        .bi::before {
+            color: rgb(210, 210, 30);
+        }
+    }
+
+}

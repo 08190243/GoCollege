@@ -1,0 +1,100 @@
+body {
+  overflow-x: hidden;
+}
+.backgrund {
+  background: url(../封面/image/bg1.jpg) no-repeat;
+  height: 700px;
+  box-sizing: content-box;
+  margin: 0;
+}
+.backgrund > div {
+  margin: 0 auto;
+  width: 600px;
+  height: 700px;
+  padding: 0;
+  position: relative;
+}
+.backgrund > div > div {
+  width: 100%;
+  height: 100%;
+}
+.backgrund .startloading {
+  overflow: hidden;
+  position: relative;
+}
+.backgrund .startloading .loading {
+  width: 80%;
+  height: 40px;
+  position: absolute;
+  bottom: 200px;
+  left: 50px;
+  border: 2px solid hsl(38, 62%, 52%);
+  border-radius: 40px;
+  overflow: hidden;
+}
+.backgrund .startloading .loading span {
+  position: absolute;
+  left: 45%;
+  top: -5px;
+  color: #d40f1f;
+  font-size: 25px;
+  font-weight: 600;
+}
+.backgrund .startloading .loading div {
+  width: 1%;
+  height: 100%;
+  border-bottom-left-radius: 40px;
+  border-top-left-radius: 40px;
+  background-color: #d9b141;
+}
+.backgrund .startloading ul {
+  width: 400%;
+  height: 100%;
+  position: absolute;
+  padding: 0;
+}
+.backgrund .startloading ul li {
+  float: left;
+  list-style: none;
+  height: 100%;
+  width: 600px;
+}
+.backgrund .startloading ul li img {
+  width: 100%;
+  height: 100%;
+}
+.backgrund .start {
+  display: none;
+}
+.backgrund iframe {
+  width: 100%;
+  height: 100%;
+}
+.user {
+  position: absolute;
+  height: 80px;
+  width: 100%;
+  bottom: 0px;
+  background-color: #0d7a55;
+  margin: 0;
+  padding-left: 10px;
+}
+.user .userimg {
+  display: block;
+  width: 100px;
+  height: 100%;
+  background: url(image/touxiang.jpg) no-repeat;
+  background-size: 100%;
+  border-radius: 100px;
+}
+.user p {
+  width: 50%;
+  line-height: 100px;
+  margin: 0;
+  color: #00ff1e;
+  font-size: 25px;
+  font-weight: 700;
+}
+.user p .bi::before {
+  color: #d2d21e;
+}

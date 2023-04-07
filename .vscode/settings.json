@@ -1,0 +1,10 @@
+
+{
+    "editor.codeActionsOnSave": {
+    },
+    "emmet.preferences": {
+    },
+    "editor.formatOnType":true,
+    "editor.formatOnSave": true,
+    "editor.fontLigatures": false
+}

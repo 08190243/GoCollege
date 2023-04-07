@@ -1,0 +1,553 @@
+body div {
+  padding: 0;
+  margin: 0;
+}
+body > div,
+body .defeat,
+body #defeat,
+body .cloud {
+  margin: 0px auto;
+  width: 600px;
+  height: 700px;
+  overflow: hidden;
+}
+.mian,
+.car-tool {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  background: url(image/sushibg.webp) no-repeat 0px 0px;
+  perspective: 350px;
+  box-sizing: content-box;
+}
+.mian > p,
+.car-tool > p {
+  font-size: 25px;
+  margin-left: 10px;
+  color: #352e2f;
+}
+.mian ul,
+.car-tool ul {
+  list-style: none;
+}
+.mian ul li,
+.car-tool ul li {
+  font-size: 18px;
+  width: 20%;
+  height: 45px;
+  margin-bottom: 10px;
+  position: relative;
+}
+.mian ul li img,
+.car-tool ul li img {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: -8px;
+  z-index: 4;
+  top: -12px;
+}
+.mian ul li i,
+.car-tool ul li i {
+  position: relative;
+}
+.mian ul li .bi:before,
+.car-tool ul li .bi:before {
+  z-index: 4;
+  font-size: 35px;
+  position: absolute;
+}
+.mian ul li .trophy::before,
+.car-tool ul li .trophy::before {
+  color: #efe11a;
+}
+.mian ul li .love::before,
+.car-tool ul li .love::before {
+  color: #eb327c;
+}
+.mian ul li span,
+.car-tool ul li span {
+  margin-left: 10px;
+  width: 100px;
+  position: absolute;
+  right: -2px;
+  bottom: 16px;
+  text-align: center;
+  display: inline-block;
+  background-color: rgba(252, 253, 255, 0.842);
+  border-top-right-radius: 42px;
+  border-bottom-right-radius: 42px;
+}
+.mian h3,
+.car-tool h3 {
+  margin: 0;
+  position: absolute;
+  top: 21%;
+  left: 40%;
+  color: crimson;
+  display: none;
+}
+.mian .bottom,
+.car-tool .bottom {
+  height: 500px;
+  position: relative;
+}
+.mian .bottom > div p,
+.car-tool .bottom > div p {
+  height: 40px;
+  position: absolute;
+  width: 0;
+  top: 30%;
+  left: 20%;
+  z-index: 4;
+  font-size: 28px;
+  color: #d3b07c;
+  overflow: hidden;
+}
+.mian .bottom .p2,
+.car-tool .bottom .p2 {
+  top: 37%;
+  left: 30%;
+}
+.mian .userpic,
+.car-tool .userpic {
+  display: none;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: -97px;
+}
+.bottom1 {
+  overflow: hidden;
+}
+.bottom1 img {
+  display: block;
+  width: 200px;
+  height: 250px;
+  position: absolute;
+  top: 32px;
+  z-index: 3;
+}
+.bottom1 .dialogue1,
+.bottom1 .dialogue3,
+.bottom1 .dialogue4 {
+  position: relative;
+  width: 80%;
+  height: 40%;
+  margin-left: 109px;
+  margin-top: 80px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  background: linear-gradient(#fbfdff, rgba(251, 253, 255, 0.9), rgba(251, 253, 255, 0.8), rgba(251, 253, 255, 0.7), rgba(251, 253, 255, 0));
+}
+.bottom1 .dialogue1 .p3,
+.bottom1 .dialogue3 .p3,
+.bottom1 .dialogue4 .p3,
+.bottom1 .dialogue1 .p4,
+.bottom1 .dialogue3 .p4,
+.bottom1 .dialogue4 .p4 {
+  color: black;
+}
+.bottom1 .dialogue1 .p3,
+.bottom1 .dialogue3 .p3,
+.bottom1 .dialogue4 .p3 {
+  top: 4%;
+  left: 13%;
+}
+.bottom1 .dialogue1 .p4,
+.bottom1 .dialogue3 .p4,
+.bottom1 .dialogue4 .p4 {
+  left: 20%;
+}
+.bottom2 img {
+  width: 170px;
+  height: 170px;
+  border: 10px solid #fff;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.bottom2 .dialogue2 .p5 {
+  width: 0;
+  color: #81df23;
+  top: 40%;
+}
+.cloud {
+  position: absolute;
+  display: none;
+  background-color: rgba(255, 255, 255, 0.7);
+  top: 0;
+  z-index: 3;
+}
+.bottom3,
+.video {
+  position: relative;
+  transform-style: preserve-3d;
+}
+.bottom3 p,
+.video p {
+  color: #e6e1e6;
+  font-size: 28px;
+  width: 50%;
+  margin-left: 200px;
+  font-weight: 1000;
+  text-shadow: #e4a3c6 2px -3px 1px;
+  font-style: inherit;
+  margin-top: 50px;
+}
+.bottom3 p img,
+.video p img {
+  width: 40px;
+  height: 40px;
+}
+.bottom3 .coin-15,
+.video .coin-15 {
+  font-size: 22px;
+}
+.bottom3 .iphone,
+.video .iphone {
+  display: none;
+  position: absolute;
+  width: 150px;
+  height: 200px;
+  right: 143px;
+  top: -9px;
+}
+.teacher1Show {
+  overflow: visible;
+}
+.bottom4 {
+  height: 100%;
+}
+.bottom4 .teacher1 {
+  top: -258px;
+  left: 29%;
+  width: 271px;
+  height: 257px;
+}
+.bottom4 .dialogue3 {
+  margin-left: 75px;
+  margin-top: 200px;
+}
+.bottom4 .dialogue3 .p3,
+.bottom4 .dialogue3 .p4 {
+  left: 5%;
+  width: 20%;
+  font-size: 20px;
+}
+.bottom4 .dialogue3 .p4 {
+  width: 0;
+  overflow: hidden;
+  height: 30px;
+}
+.bottom5 .dialogue4 {
+  margin-top: 107px;
+}
+.bottom5 .dialogue4 .p3,
+.bottom5 .dialogue4 .p4,
+.bottom5 .dialogue4 .p6 {
+  font-size: 20px;
+  left: 5%;
+  width: 10%;
+}
+.bottom5 .dialogue4 .p3 {
+  top: 15%;
+}
+.bottom5 .dialogue4 .p4,
+.bottom5 .dialogue4 .p6 {
+  width: 0;
+  height: 30px;
+  overflow: hidden;
+}
+.bottom5 .dialogue4 .p6 {
+  left: 18%;
+  top: 52%;
+  color: black;
+}
+.newhair,
+.iframe,
+.video {
+  margin: 0px auto;
+  width: 600px;
+  height: 700px;
+  position: relative;
+  background: url(image/样式3.jpg) no-repeat -600px 0px;
+  perspective: 350px;
+  box-sizing: content-box;
+}
+.newhair .btn,
+.iframe .btn,
+.video .btn {
+  font-size: 25px;
+  font-weight: 900;
+  width: 120px;
+  margin-left: 30px;
+  margin-top: 40px;
+  border-radius: 15px;
+  border: 2px solid #e2942d;
+  color: #f1fd08;
+  background: linear-gradient(#f8f8b6, rgba(239, 152, 21, 0.9), #faf452);
+}
+.userhair {
+  width: 50%;
+  float: left;
+}
+.userhair img {
+  width: 325px;
+  height: 590px;
+  margin-top: 15px;
+}
+.hairimgs {
+  margin-left: 400px;
+}
+.hairimgs img {
+  width: 160px;
+  height: 140px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.hairimgsMove {
+  position: absolute;
+  top: 0;
+}
+.hairimgsMove img {
+  width: 160px;
+  height: 140px;
+  position: absolute;
+  z-index: 4;
+  left: 400px;
+  cursor: pointer;
+}
+.hairimgsMove img:nth-child(1) {
+  top: 92px;
+}
+.hairimgsMove img:nth-child(2) {
+  top: 242px;
+}
+.hairimgsMove img:nth-child(3) {
+  top: 394px;
+}
+.hairimgsMove img:nth-child(4) {
+  top: 543px;
+}
+.hairLookShow .hairBack {
+  margin-left: 230px;
+}
+.hairLookShow .userhair img {
+  width: 350px;
+  margin-left: 116px;
+}
+.useCheck {
+  position: absolute;
+  width: 100%;
+  height: 300px;
+  border-radius: 40px;
+  display: none;
+  background: linear-gradient(#fbfdff, rgba(251, 253, 255, 0.9), rgba(251, 253, 255, 0.8), rgba(251, 253, 255, 0.7), rgba(251, 253, 255, 0));
+  bottom: 37px;
+}
+.useCheck h3,
+.useCheck h5 {
+  text-align: center;
+  font-weight: 700;
+  color: #454949;
+  text-shadow: #fff 1px 1px 2px;
+  margin-bottom: 15px;
+}
+.useCheck h5 {
+  color: #fcf7f7;
+  text-shadow: #ed3134 2px 1px 3px;
+  font-weight: 100;
+}
+.useCheck p {
+  width: 70%;
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 25px;
+  margin-left: 96px;
+  position: relative;
+  cursor: pointer;
+}
+.useCheck p:hover {
+  opacity: 0.5;
+}
+.useCheck p::before,
+.useCheck p::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 2px;
+  top: 0;
+  left: 0;
+  background: linear-gradient(to right, rgba(216, 64, 64, 0.3), rgba(216, 64, 64, 0.5), #d8a540, rgba(216, 64, 64, 0.5), rgba(216, 64, 64, 0.3));
+}
+.useCheck p::after {
+  top: 100%;
+}
+.iframe iframe {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.car-tool {
+  background: url(image/school.jpg) no-repeat;
+  background-size: 200%;
+  overflow: visible;
+}
+.car-tool > div:nth-child(1) {
+  position: absolute;
+  height: 300px;
+  overflow: hidden;
+  z-index: 3;
+}
+.car-tool > div:nth-child(1) span {
+  right: -87px;
+}
+.car-tool > div:nth-child(2),
+.car-tool .video,
+.car-tool video {
+  width: 100%;
+  height: 100%;
+}
+.car-tool .selectTool {
+  position: absolute;
+  width: 100%;
+  top: 65%;
+  text-align: center;
+  text-shadow: #e6e1e6 -1px 1px 2px;
+}
+.car-tool .video {
+  background: none;
+  position: relative;
+}
+.car-tool .video p {
+  position: absolute;
+  top: 45%;
+}
+.car-tool .video .coin-15 {
+  top: 55%;
+}
+.car-tool .bicycle,
+.car-tool .motor {
+  width: 154px;
+  height: 126px;
+  left: 100px;
+  position: absolute;
+  top: 45%;
+  cursor: pointer;
+}
+.car-tool .motor {
+  left: 350px;
+}
+.teacher2Show {
+  height: 100%;
+  width: 100%;
+}
+.teacher2Show .teacher2 {
+  width: 219px;
+  height: 263px;
+  top: 45px;
+  left: 185px;
+}
+.teacher2Show .dialogue3 {
+  margin-top: 308px;
+}
+.teacher2Show .dialogue3 .p1 {
+  top: 5%;
+}
+.teacher2Show .dialogue3 .teacher2Text {
+  left: 7%;
+  font-size: 25px;
+  color: black;
+}
+.userhairDialogue {
+  height: 100% !important;
+  position: relative;
+}
+.userhairDialogue .dialogue1 {
+  margin-top: 332px;
+}
+.userhairDialogue .dialogue1 .p {
+  width: 100px;
+  top: 8%;
+  left: 12%;
+  color: #423d33;
+}
+.userhairDialogue .dialogue1 .differentP {
+  left: 27%;
+  top: 37%;
+  color: #e53f0d;
+}
+.userhairDialogue .userhairpic {
+  top: 280px;
+  width: 203px;
+  height: 289px;
+  left: -37px;
+}
+#defeat {
+  display: none;
+  position: relative;
+}
+#defeat h1,
+#defeat h2 {
+  position: absolute;
+  z-index: 5;
+  left: 37%;
+  top: 4%;
+  font-size: 58px;
+  font-weight: 1000;
+  color: #ecd1ec;
+  text-shadow: #983dfa -1px -1px;
+}
+#defeat h2 {
+  top: 14%;
+  left: 33%;
+  font-size: 35px;
+}
+.defeat {
+  position: absolute;
+  opacity: 0.4;
+  background: url(image/default.jpg) no-repeat -1px -1px;
+  background-size: 150%;
+  z-index: 2;
+}
+#user {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(17, 16, 16, 0.4);
+  z-index: 3;
+  position: absolute;
+}
+#user img {
+  position: absolute;
+  top: 12%;
+  left: 21%;
+  z-index: 4;
+  opacity: 0.8;
+}
+.scores,
+.noText,
+.noText1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 30px;
+  color: #fff;
+  font-weight: 500;
+  text-shadow: #ed3d51 -2px -1px;
+  z-index: 5;
+}
+.noText,
+.noText1 {
+  width: 0;
+  color: #201c1c;
+  text-shadow: #f6dde0 -2px -1px;
+  left: 7%;
+  overflow: hidden;
+  height: 40px;
+}
+.noText1 {
+  left: 28%;
+  top: 57%;
+}
